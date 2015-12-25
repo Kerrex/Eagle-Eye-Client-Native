@@ -23,22 +23,17 @@ public class Window {
     private JTabbedPane tabbedPane1;
 
     public static void main(String[] args) {
-        frame = new JFrame("Eagle Eye");
-        frame.setContentPane(new Window().mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (UnsupportedLookAndFeelException e) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
             e.printStackTrace();
         }
+        frame = new JFrame("Eagle Eye");
+        frame.setContentPane(new Window().mainPanel);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+
     }
 
     private void createUIComponents() throws IOException, SQLException {
