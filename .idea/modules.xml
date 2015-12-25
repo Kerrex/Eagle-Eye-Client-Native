@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Client.iml" filepath="$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Clientg.iml" filepath="$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Clientg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Clientttt.iml" filepath="$PROJECT_DIR$/Eagle-Eye-Native-Client/Eagle-Eye-Native-Clientttt.iml" />
+    </modules>
+  </component>
+</project>
